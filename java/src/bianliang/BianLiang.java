@@ -50,6 +50,14 @@ public class BianLiang {
         int c = 0;
         System.out.println("先输出c为"+c++);
         System.out.println("后自增输出为"+c);
+        System.out.println("7、类型转换");
+        //自动转换
+        //1、必须类型相容；
+        //2、目标类型的范围要大于原类型范围
+        //强制转换
+        //1.格式为：（类型名）表达式  如 doubule a=1;int b=(int) a
+        //2.注意：强制转换可能会导致精度损失
+
 
 
 
