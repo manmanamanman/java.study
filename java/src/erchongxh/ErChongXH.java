@@ -68,5 +68,17 @@ public class ErChongXH {
             }
             System.out.println();
         }
+
+        System.out.println("==================");
+
+        //试题5：打印九九乘法表
+        int sum1;
+        for(int i=1;i<10;i++){
+            for(int j=1;j<=i;j++){
+                sum1=i*j;
+                System.out.print(i+"*"+j+"="+sum1+"\t");
+            }
+            System.out.println();
+        }
     }
 }
