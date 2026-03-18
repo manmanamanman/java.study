@@ -35,5 +35,26 @@ public class ShuZuChaRuOrShanChu {
         for(int i=0;i<score.length;i++){
             System.out.print(score[i]+"\t");
         }
+
+        System.out.println();
+        //数组元素删除
+        //流程如下：
+        //先定位要删除元素的下标index
+        //将index后的元素向前进一位
+
+        //试题2：将试题1中新增的元素删除
+        int indexd=score.length-1;
+        for(int i=0;i<score.length;i++){
+            if(score[i]==58){
+                indexd=i;
+                break;
+            }
+        }
+        for(int i=indexd;i< score.length-2;i++){
+            score[i]=score[i+1];
+        }
+        for(int i=0;i< score.length-1;i++){
+            System.out.print(score[i]+"\t");
+        }
     }
 }
