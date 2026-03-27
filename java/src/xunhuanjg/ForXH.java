@@ -39,5 +39,13 @@ public class ForXH {
         //break:跳出当前最近的循环，执行后续语句；
         //continue:跳出本次循环，进行下一次循环；
         //return:结束所在的方法。方法中若是无返回值类型，则直接retrun即可，否则return后加返回值；
+
+        //循环数组时，可以使用for增强的方式遍历
+        //格式：for(数组类型 自定义遍历变量:数组名)  如：for(int p:num4)
+        //试题4：现有数组num{1,2,3},使用for增强遍历并输出
+        int[] num4=new int[]{1,2,3};
+        for(int p:num4){
+            System.out.println(p);
+        }
     }
 }
