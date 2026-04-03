@@ -1,0 +1,11 @@
+2026-04-03 16:34:13 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:36:15 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:36:57 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:37:15 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:40:01 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:41:02 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:41:22 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:41:40 ERROR UseLog4J:10 - 这是一个错误信息
+2026-04-03 16:42:54,742 [ERROR] [class]:[UseLog4J] [method]:[log4j.t01.UseLog4J.main(UseLog4J.java:10)] - [这是一个错误信息]
+2026-04-03 16:44:01,134 [ERROR] [class]:[UseLog4J] [method]:[log4j.t01.UseLog4J.main(UseLog4J.java:10)] - [这是一个错误信息]
+2026-04-03 16:46:59,270 [ERROR] [class]:[UseLog4J] [method]:[log4j.t01.UseLog4J.main(UseLog4J.java:10)] - [这是一个错误信息]
